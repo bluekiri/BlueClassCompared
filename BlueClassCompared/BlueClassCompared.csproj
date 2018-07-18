@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Eloy Garcia</Authors>
+    <Company>Bluekiri</Company>
+    <Description>Nuget to compare in a customized way objects</Description>
+    <Copyright>20COOLPILLOWS, S.L</Copyright>
+    <RepositoryType>Git</RepositoryType>
+    <PackageIconUrl>https://bluekiri.com/images/ms-icon-70x70.png</PackageIconUrl>
+    <PackageTags>Comparator Class, Compare object</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>
